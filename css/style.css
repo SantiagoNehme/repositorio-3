@@ -1,0 +1,241 @@
+html{
+    font-size: 62.5%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.indiceHola nav ul li a{
+
+    color:whitesmoke;
+
+}
+body{
+    background-color: black;
+}
+
+
+header nav ul li{
+    border: 1px solid black;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0.3rem 0.6rem;
+    margin: 0 0.8rem;
+    color: whitesmoke;
+    
+}
+header nav ul li:hover{
+
+    background-color: midnightblue;
+    color: whitesmoke;
+    
+}
+header{
+    background-color: black;
+    grid-area: header;
+    margin: auto;
+}
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.indiceHola h1{
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+}
+.indiceHola nav ul li a{
+
+    font-size: 20px;
+}
+.indiceHola nav ul li{
+    display: flex;
+    justify-content: left;
+    
+}
+
+main{
+    background-color: black;
+    grid-area: main;
+}
+main section p{
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    color: whitesmoke;
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;      
+}
+section{
+    grid-area: sec;
+}
+footer{
+    font-size: 20px;
+    color: white;
+    grid-area: footer;
+    background-color: black;
+}
+
+.tablaLogros{
+    background-color: grey;
+    position: relative;
+    font-size: 30px;
+    width: 50%;
+    margin: 3rem;
+    padding: 3rem;
+}
+
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    
+    width: 25%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+
+ .listaBanda{
+    border: 1px solid black;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0.3rem 0.6rem;
+    margin: 0 0.8rem;
+}
+.listaBanda header nav ul li:hover{
+
+    background-color: midnightblue;
+    color: whitesmoke;
+    
+}
+
+
+.whoYouCanGet{
+
+    font-size: 30px;
+}
+.holaProbando{
+    font-size: 130px;
+}
+img{
+    width: 100%;
+}
+#mapa{
+    width: auto;
+    margin-left: 30rem;
+    padding: 15rem;
+    border-radius: 3rem;
+}
+.exploracionMapa h1{
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    div{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "main main"
+                             "footer footer"
+                             "header header"  
+                            "creacion creacion";
+    }
+    
+}
+.logroUno{
+    display: flex;
+    width: auto;
+}
+.box{
+    display: flex;
+    transition: all 3s;
+    margin-left: 65rem;
+
+}
+.box:hover{
+    
+    transform: scale(2);
+    
+}
+.elCaballero{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
+}
+.elCaballero header{
+    grid-area: header;
+    background-color: black;
+}
+.elCaballero div{
+    grid-area: div;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .elCaballero{
+        grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header div "
+                         "div div ";
+    }
+}
+.zonaMapaGrid{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 40px;
+    margin: 0;
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
+    color: whitesmoke;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 10rem;
+    font-family: 'Cormorant SC', serif;
+    
+}
+.zonaMapaGrid h1{
+    color: whitesmoke;
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+
+}
+.zonaMapaGrid h1 p{
+    color: whitesmoke;
+    
+}
+
+
+
+ 
+
