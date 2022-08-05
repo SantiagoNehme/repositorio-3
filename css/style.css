@@ -91,6 +91,8 @@ footer{
     width: 50%;
     margin: 3rem;
     padding: 3rem;
+    background: rgb(55,26,77);
+    background: linear-gradient(90deg, rgba(55,26,77,1) 48%, rgba(2,0,36,1) 100%, rgba(124,0,255,1) 100%);
 }
 
 ul {
