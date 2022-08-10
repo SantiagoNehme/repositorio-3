@@ -8,36 +8,12 @@ html{
     margin: 0;
 }
 
-.indiceHola nav ul li a{
 
-    color:whitesmoke;
-
-}
 body{
     background-color: black;
 }
-
-
-header nav ul li{
-    border: 1px solid black;
-    list-style: none;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 0.3rem 0.6rem;
-    margin: 0 0.8rem;
-    color: whitesmoke;
-    
-}
-header nav ul li:hover{
-
-    background-color: midnightblue;
-    color: whitesmoke;
-    
-}
-header{
+.colorFondo{
     background-color: black;
-    grid-area: header;
-    margin: auto;
 }
 nav{
     background-color: black;
@@ -45,20 +21,13 @@ nav{
 a{
     text-decoration: none;
 }
-.indiceHola h1{
-    font-size: 6rem;
+.titulo{
+    font-size: 12rem;
     color: whitesmoke;
+    background-color: black;
     text-align: center;
     font-family: 'Cormorant SC', serif;
-}
-.indiceHola nav ul li a{
-
-    font-size: 20px;
-}
-.indiceHola nav ul li{
-    display: flex;
-    justify-content: left;
-    
+    padding: 0;
 }
 
 main{
@@ -71,7 +40,7 @@ main section p{
     font-family: 'Ibarra Real Nova', serif;
     color: whitesmoke;
     margin: 2rem;
-    padding: 2rem;
+    padding: 0;
     width: 50%;      
 }
 section{
@@ -85,6 +54,7 @@ footer{
 }
 
 .tablaLogros{
+    color: antiquewhite;
     background-color: grey;
     position: relative;
     font-size: 30px;
@@ -216,13 +186,13 @@ img{
     grid-template-columns: 100px;
     grid-template-rows: 40px;
     margin: 0;
-    grid-row-gap: 5px;
+    grid-row-gap: 1px;
     grid-column-gap: 10px;
     color: whitesmoke;
     font-size: 15px;
     position: absolute;
-    margin-top: 25rem;
-    margin-left: 10rem;
+    margin-top: -50rem;
+    margin-left: 20rem;
     font-family: 'Cormorant SC', serif;
     
 }
@@ -234,10 +204,52 @@ img{
 }
 .zonaMapaGrid h1 p{
     color: whitesmoke;
+}
+.cambioColor-links{
+    color: whitesmoke;
     
 }
 
+.tituloExploracion{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.bodyExploracion{
+    background-color: black;
+}
+.tamañoPrimerSlide{
+    font-size: 20px;
+}
+.tamañoSegundoSlide{
+    font-size: 20px;
+}
+.tamañoTercerSlide{
+    font-size: 20px;
+}
+.posicionSlide{
+    margin-left: 30rem;
+    width: 50%;
+}
 
+.bandaSonoraTitulo{
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Cormorant SC', serif;
+}
+.zonasMapaTabla{
+    display: flex;
+    margin-left: -30rem;
+    margin-top: 0rem;
+
+}
+.descripcionZonasMapa{
+    display: flex;
+    margin-left: -25rem;
+    color: antiquewhite;
+    font-size: 13px;
+}
 
  
 
